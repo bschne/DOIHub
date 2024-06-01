@@ -1,6 +1,6 @@
 chrome.webRequest.onBeforeRequest.addListener(
     function(details) {
-         return {redirectUrl: "https://sci-hub.tw/" + details.url};
+         return {redirectUrl: "https://sci-hub.st/" + details.url};
     },
     {
         urls: [
